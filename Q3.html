@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3</title>
+    <style>
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card{
+            width: 300px;
+            height: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 8px 0 grey;
+            background-image: linear-gradient(to right top , #a08cea , blue);
+        }
+        .card:hover{
+            transform: rotate(5deg);
+        }
+        .heder{
+            display:flex;
+            align-items: center ;
+            justify-content: space-between;
+        }
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 20px;
+            color: aliceblue;
+        }
+        .btn{
+            margin-top: 50px;
+        }
+        .btn input{
+            width: 100%;
+            height: 35px;
+            background-image: linear-gradient(to right , #45DDDB , #33C35F);
+            border-radius: 8px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+        <div class="heder">
+            <h1>#01</h1>
+            <h2>Created On :01/01/2023 </h2>
+        </div>
+        <div class="main">
+            <h1>Importent Data</h1>
+            <ul>
+                <li>12 May: International Nurses Day</li>
+                <li>10 Jan: World Hindi Day</li>
+                <li>13 January 2023: Lohri Day</li>
+                <li>15 January 2023: Indian Army Day</li>
+            </ul>
+        </div>
+        <div class="btn">
+            <input type="button" value="Mark As Done">
+        </div>
+    </div>
+    </section>
+</body>
+</html>
